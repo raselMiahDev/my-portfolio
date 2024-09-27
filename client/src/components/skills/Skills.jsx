@@ -21,7 +21,7 @@ const Skills = () => {
     {
       id: 3,
       name: "Tailwind Css",
-      icon: <RiTailwindCssFill size={35} color="blue"/>,
+      icon: <RiTailwindCssFill size={35} color="#12a3dd"/>,
     },
     {
       id: 4,
@@ -31,7 +31,7 @@ const Skills = () => {
     {
       id: 5,
       name: "React Js",
-      icon: <GrReactjs size={35} color="#RRGGBB"/>,
+      icon: <GrReactjs size={35} color="#12a3dd"/>,
     },
     {
       id: 6,
