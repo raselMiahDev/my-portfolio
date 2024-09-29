@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Card from "./Card";
 import ps1 from "../../assets/image/projectSS/e-learning-platform-one.vercel.app_.png";
 import ps2 from "../../assets/image/projectSS/react-ihadis-test.vercel.app_.png";
+import ps3 from "../../assets/image/projectSS/servey.png";
 
 const Tab = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -12,9 +13,9 @@ const Tab = () => {
       image: ps1,
       title: "Learning Managment",
       description:
-        " I specialize in creating robust, scalable, and user-friendly web applications, with a strong focus on integrating front-end",
+        "I developed a full-stack e-learning platform using the MERN stack (React.js, Node.js, Express.js, MongoDB) and styled with Tailwind CSS. The platform includes features such as course browsing, user authentication, registration, and enrollment, providing secure access to course content for enrolled users. With a responsive design, the platform ensures a seamless experience across devices, showcasing my ability to build dynamic, scalable web applications.",
       liveLink: "https://e-learning-platform-one.vercel.app",
-      githubLink: "",
+      githubLink: "https://github.com/raselMiahDev/E-learning-client-c",
       tecnology: "fullStack",
     },
     {
@@ -22,9 +23,9 @@ const Tab = () => {
       image: ps2,
       title: "Hadis Sikkha-React",
       description:
-        " I specialize in creating robust, scalable, and user-friendly web applications, with a strong focus on integrating front-end",
+        "Developed a book reading application using React.js and Tailwind CSS. The app allows users to read books by chapters and pages, offering a clean, responsive interface for an enjoyable reading experience on any device.",
       liveLink: "https://react-ihadis-test.vercel.app",
-      githubLink: "",
+      githubLink: "https://github.com/raselMiahDev/react-ihadis-test",
       tecnology: ["react"],
     },
     {
@@ -32,7 +33,27 @@ const Tab = () => {
       image: ps1,
       title: "Ecomerce",
       description:
-        " I specialize in creating robust, scalable, and user-friendly web applications, with a strong focus on integrating front-end",
+        "",
+      liveLink: "",
+      githubLink: "",
+      tecnology: "fullStack",
+    },
+    {
+      id: 4,
+      image: ps3,
+      title: "Oline Customer Survey",
+      description:
+        "Spacific company customer oline feedback servay application.",
+      liveLink: "https://enamtrimsltd-mern.netlify.app/",
+      githubLink: "https://github.com/raselMiahDev/client-survey",
+      tecnology: "fullStack",
+    },
+    {
+      id: 5,
+      image: ps3,
+      title: "Task Manager- MERN Stack",
+      description:
+        "Built a task management application using the MERN stack (MongoDB, Express.js, React.js, Node.js), where users can register, log in, create, edit, and delete tasks. The application features secure authentication and stores task data in a MongoDB database, offering a responsive and user-friendly interface.",
       liveLink: "",
       githubLink: "",
       tecnology: "fullStack",

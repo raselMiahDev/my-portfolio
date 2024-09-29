@@ -10,7 +10,7 @@ const ProjectCard = ({ image, title, description, liveLink, githubLink }) => {
       </div>
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <p className="text-gray-600 mb-4">{description}</p>
+        <p className="text-gray-600 mb-4">{description.slice(0,120)}...</p>
         <div className="flex justify-between">
           <a
             href={liveLink}
