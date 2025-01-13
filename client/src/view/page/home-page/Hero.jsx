@@ -1,9 +1,8 @@
 import React from "react";
-import GroupButtons from "./Buttons";
-import Avater from "../assets/image/rasel.jpg";
-import BG from "../assets/image/cool-background.svg";
-import Resume from "../assets/Resume of Md Rasel Miah_mern_stack_.pdf"
-import SocialLink from "./SocialLink";
+import Avater from "../../../assets/image/rasel.jpg";
+import BG from "../../../assets/image/cool-background.svg";
+import Resume from "../../../assets/Resume of Md Rasel Miah_mern_stack_.pdf"
+import SocialLink from "../../components/common/SocialLink";
 
 const Hero = () => {
   return (

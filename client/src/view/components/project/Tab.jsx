@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Card from "./Card";
-import ps1 from "../../assets/image/projectSS/e-learning-platform-one.vercel.app_.png";
-import ps2 from "../../assets/image/projectSS/react-ihadis-test.vercel.app_.png";
-import ps3 from "../../assets/image/projectSS/servey.png";
+import ps1 from "../../../assets/image/projectSS/e-learning-platform-one.vercel.app_.png";
+import ps2 from "../../../assets/image/projectSS/react-ihadis-test.vercel.app_.png";
+import ps3 from "../../../assets/image/projectSS/servey.png";
 
 const Tab = () => {
   const [activeTab, setActiveTab] = useState("tab1");

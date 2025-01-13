@@ -4,7 +4,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { GrReactjs } from "react-icons/gr";
 import { SiExpress, SiMongoose, SiRedux } from "react-icons/si";
-import Heading from "../Heading";
+import Heading from "../common/Heading";
 
 const Skills = () => {
   const skills = [

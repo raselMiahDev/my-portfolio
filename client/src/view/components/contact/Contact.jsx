@@ -1,4 +1,4 @@
-import Heading from "../Heading";
+import Heading from "../common/Heading";
 import ContactForm from "./ContactForm";
 import ContactInfo from "./ContactInfo";
 

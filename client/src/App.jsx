@@ -1,4 +1,4 @@
-import Home from './page/Home';
+import Home from './view/page/home-page/Home';
 
 const App = () => {
   return (
