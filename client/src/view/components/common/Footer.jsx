@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className='bg-slate-900 p-5'>
-            <h1 className='text-center text-slate-400'>MD RASEL MIAH</h1>
+            <h1 className='text-center text-slate-400'>Copyright 2025 - MD RASEL MIAH</h1>
         </footer>
     );
 };

@@ -3,6 +3,9 @@ import Card from "./Card";
 import ps1 from "../../../assets/image/projectSS/e-learning-platform-one.vercel.app_.png";
 import ps2 from "../../../assets/image/projectSS/react-ihadis-test.vercel.app_.png";
 import ps3 from "../../../assets/image/projectSS/servey.png";
+import Colleagues from "../../../assets/image/projectSS/colluages1.png";
+import quickbuym from "../../../assets/image/projectSS/quickbuym.png";
+import dashboard from "../../../assets/image/projectSS/dashboard.png";
 
 const Tab = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -10,6 +13,16 @@ const Tab = () => {
   const ProjectData = [
     {
       id: 1,
+      image: Colleagues,
+      title: "Colleagues Rating Web Application.",
+      description:
+        "A modern Colleagues Rating Web Application built using React, TypeScript, and Tailwind CSS. This application allows Google-authenticated users to create a profile, rate their colleagues on various skills and experiences, and report inappropriate ratings.",
+      liveLink: "https://colluagesrate.netlify.app/",
+      githubLink: "https://github.com/raselMiahDev/colluage-rate-client",
+      tecnology: ["react", "fullStack"],
+    },
+    {
+      id: 2,
       image: ps1,
       title: "Learning Managment",
       description:
@@ -19,7 +32,18 @@ const Tab = () => {
       tecnology: "fullStack",
     },
     {
-      id: 2,
+      id: 3,
+      image: quickbuym,
+      title: "Online e-commerce",
+      description:
+        "Features: User can see product , add to cart,Order,login,Register and user friendly Interface",
+      liveLink: "https://quickbuym.netlify.app/",
+      githubLink: "https://github.com/raselMiahDev/quickbuy-e-com",
+      tecnology: ["react"],
+    },
+
+    {
+      id: 4,
       image: ps2,
       title: "Hadis Sikkha-React",
       description:
@@ -28,35 +52,26 @@ const Tab = () => {
       githubLink: "https://github.com/raselMiahDev/react-ihadis-test",
       tecnology: ["react"],
     },
+
     {
-      id: 3,
-      image: ps1,
-      title: "Ecomerce",
-      description:
-        "",
-      liveLink: "",
-      githubLink: "",
-      tecnology: "fullStack",
-    },
-    {
-      id: 4,
+      id: 5,
       image: ps3,
       title: "Oline Customer Survey",
       description:
         "Spacific company customer oline feedback servay application.",
       liveLink: "https://enamtrimsltd-mern.netlify.app/",
       githubLink: "https://github.com/raselMiahDev/client-survey",
-      tecnology: "fullStack",
+      tecnology: ["react", "fullStack"],
     },
     {
-      id: 5,
-      image: ps3,
-      title: "Task Manager- MERN Stack",
+      id: 6,
+      image: dashboard,
+      title: "Visualization of dashboard",
       description:
-        "Built a task management application using the MERN stack (MongoDB, Express.js, React.js, Node.js), where users can register, log in, create, edit, and delete tasks. The application features secure authentication and stores task data in a MongoDB database, offering a responsive and user-friendly interface.",
-      liveLink: "",
-      githubLink: "",
-      tecnology: "fullStack",
+        "A mern stack project that visualizes data using charts and graphs. It provides an interactive dashboard for users to analyze and interpret data effectively.",
+      liveLink: "https://visualized-dashboard.netlify.app/",
+      githubLink: "https://github.com/rasel3pm/Visualized-Dashboard-client",
+      tecnology: ["react", "fullStack"],
     },
   ];
 
