@@ -92,10 +92,10 @@ const Skills = () => {
 
 
   return (
-    <div className="max-w-screen-xl mx-auto px-14 md:px-24 md:py-10">
+    <div className="max-w-screen-xl mx-auto px-10 md:px-24 md:py-10">
           <Heading title="My Skills"/>
 
-          <div className="grid md:grid-cols-5 grid-cols-2 gap-5 justify-center items-center">
+          <div className="grid md:grid-cols-5 grid-cols-1 gap-3 md:gap-5 justify-center items-center">
             {skills.map((item) => {
               return (
                 <div className="flex items-center gap-3 border border-green-400 rounded-lg p-3 hover:shadow-lg transition duration-300 cursor-pointer" key={item.id}>

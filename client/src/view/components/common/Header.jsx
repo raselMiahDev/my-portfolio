@@ -1,12 +1,12 @@
-
+import Logo from "../../../assets/image/logo/logo.png"
 const Header = () => {
 
   return (
     <nav class="bg-slate-500 border-gray-200 dark:bg-gray-900 px-5 md:px-20">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Rasel Miah
-          </span>
+        <div>
+          <img src={Logo} alt="Rasel Kibria" className="w-30 h-10"/>
+        </div>
         <button
           type="button"
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -36,7 +36,7 @@ const Header = () => {
                 class="block py-2 px-3 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                 aria-current="page"
               >
-                Home
+                Blog
               </a>
             </li>
             <li>
