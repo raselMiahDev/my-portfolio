@@ -8,8 +8,6 @@ import {
   FaGitAlt, 
   FaGithub,
   FaBootstrap,
-  FaSass,
-  FaFigma,
   FaDatabase,
   FaCloud,
   FaServer,
@@ -41,11 +39,7 @@ import {
   SiNetlify,
   SiHeroku,
   SiPostman,
-  SiLinux,
-  SiPython,
-  SiPhp,
-  SiLaravel,
-  SiMysql
+  SiVisualstudiocode,
 } from 'react-icons/si';
 
 const Skills = () => {
@@ -65,7 +59,6 @@ const Skills = () => {
         { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: 'text-orange-600' },
         { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: 'text-blue-600' },
         { name: 'Bootstrap', icon: <FaBootstrap />, level: 85, color: 'text-purple-700' },
-        { name: 'Sass/SCSS', icon: <FaSass />, level: 80, color: 'text-pink-600' },
         { name: 'Framer Motion', icon: <SiFramer />, level: 75, color: 'text-purple-500' },
         { name: 'Vite', icon: <SiVite />, level: 85, color: 'text-purple-500' },
       ]
@@ -78,15 +71,10 @@ const Skills = () => {
         { name: 'Node.js', icon: <FaNodeJs />, level: 85, color: 'text-green-600' },
         { name: 'Express.js', icon: <SiExpress />, level: 85, color: 'text-gray-600 dark:text-gray-400' },
         { name: 'MongoDB', icon: <SiMongodb />, level: 80, color: 'text-green-600' },
-        { name: 'PostgreSQL', icon: <SiPostgresql />, level: 75, color: 'text-blue-600' },
         { name: 'Firebase', icon: <SiFirebase />, level: 80, color: 'text-yellow-500' },
-        { name: 'MySQL', icon: <SiMysql />, level: 75, color: 'text-blue-500' },
-        { name: 'Python', icon: <SiPython />, level: 70, color: 'text-yellow-600' },
-        { name: 'PHP', icon: <SiPhp />, level: 65, color: 'text-purple-600' },
-        { name: 'Laravel', icon: <SiLaravel />, level: 60, color: 'text-red-600' },
-        { name: 'GraphQL', icon: <SiGraphql />, level: 70, color: 'text-pink-600' },
         { name: 'REST API', icon: <FaCloud />, level: 90, color: 'text-blue-500' },
         { name: 'JWT Auth', icon: <FaShieldAlt />, level: 85, color: 'text-yellow-600' },
+        {name: 'zod', icon: <FaCode />, level: 75, color: 'text-purple-600' },
       ]
     },
     {
@@ -96,7 +84,6 @@ const Skills = () => {
       skills: [
         { name: 'Git', icon: <FaGitAlt />, level: 90, color: 'text-orange-600' },
         { name: 'GitHub', icon: <FaGithub />, level: 90, color: 'text-gray-900 dark:text-white' },
-        { name: 'Docker', icon: <SiDocker />, level: 70, color: 'text-blue-500' },
         { name: 'VS Code', icon: <SiVisualstudiocode />, level: 95, color: 'text-blue-500' },
         { name: 'Postman', icon: <SiPostman />, level: 85, color: 'text-orange-600' },
         { name: 'Vercel', icon: <SiVercel />, level: 85, color: 'text-black dark:text-white' },
@@ -105,7 +92,6 @@ const Skills = () => {
         { name: 'Jest', icon: <SiJest />, level: 70, color: 'text-red-600' },
         { name: 'Webpack', icon: <SiWebpack />, level: 75, color: 'text-blue-600' },
         { name: 'NPM/Yarn', icon: <SiNpm />, level: 85, color: 'text-red-600' },
-        { name: 'Linux', icon: <SiLinux />, level: 70, color: 'text-yellow-600' },
       ]
     },
     {
@@ -271,11 +257,11 @@ const Skills = () => {
             <div className="text-sm text-gray-600 dark:text-gray-400 mt-2">Technologies Mastered</div>
           </div>
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-            <div className="text-4xl font-bold text-purple-600 dark:text-purple-400">20+</div>
+            <div className="text-4xl font-bold text-purple-600 dark:text-purple-400">2+</div>
             <div className="text-sm text-gray-600 dark:text-gray-400 mt-2">Projects Delivered</div>
           </div>
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">
-            <div className="text-4xl font-bold text-pink-600 dark:text-pink-400">5+</div>
+            <div className="text-4xl font-bold text-pink-600 dark:text-pink-400">3+</div>
             <div className="text-sm text-gray-600 dark:text-gray-400 mt-2">Years Coding</div>
           </div>
           <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg">

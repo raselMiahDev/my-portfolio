@@ -133,10 +133,7 @@ const Projects = () => {
       technologies: [
         { name: 'Next.js', icon: <SiNextdotjs />, color: 'text-black dark:text-white' },
         { name: 'TypeScript', icon: <SiTypescript />, color: 'text-blue-600' },
-        { name: 'GraphQL', icon: <SiGraphql />, color: 'text-pink-600' },
         { name: 'WebSocket', icon: <FaDatabase />, color: 'text-purple-600' },
-        { name: 'Redis', icon: <SiRedis />, color: 'text-red-600' },
-        { name: 'Docker', icon: <SiDocker />, color: 'text-blue-500' }
       ],
       category: "fullstack",
       featured: false,
@@ -392,7 +389,7 @@ const Projects = () => {
         {/* View All Projects Button */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/raselMiahDev?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
