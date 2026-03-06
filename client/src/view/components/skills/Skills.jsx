@@ -39,7 +39,6 @@ import {
   SiNetlify,
   SiHeroku,
   SiPostman,
-  SiVisualstudiocode,
 } from 'react-icons/si';
 
 const Skills = () => {
@@ -84,7 +83,6 @@ const Skills = () => {
       skills: [
         { name: 'Git', icon: <FaGitAlt />, level: 90, color: 'text-orange-600' },
         { name: 'GitHub', icon: <FaGithub />, level: 90, color: 'text-gray-900 dark:text-white' },
-        { name: 'VS Code', icon: <SiVisualstudiocode />, level: 95, color: 'text-blue-500' },
         { name: 'Postman', icon: <SiPostman />, level: 85, color: 'text-orange-600' },
         { name: 'Vercel', icon: <SiVercel />, level: 85, color: 'text-black dark:text-white' },
         { name: 'Netlify', icon: <SiNetlify />, level: 85, color: 'text-blue-500' },
