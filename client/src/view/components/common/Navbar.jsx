@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaBars, FaTimes, FaSun, FaMoon, FaUser, FaCode, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
+import {FaHome, FaBars, FaTimes, FaSun, FaMoon, FaUser, FaCode, FaProjectDiagram, FaEnvelope } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +8,7 @@ const Navbar = () => {
 
   // Navigation links
   const navLinks = [
-    { name: 'Home', href: '#home', icon: <FaUser className="mr-2" /> },
+    { name: 'Home', href: '#home', icon: <FaHome className="mr-2" /> },
     { name: 'About', href: '#about', icon: <FaUser className="mr-2" /> },
     { name: 'Skills', href: '#skills', icon: <FaCode className="mr-2" /> },
     { name: 'Projects', href: '#projects', icon: <FaProjectDiagram className="mr-2" /> },

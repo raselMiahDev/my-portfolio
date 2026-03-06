@@ -19,10 +19,6 @@ import {
   SiRedux, 
   SiNextdotjs,
   SiVite,
-  SiJest,
-  SiStorybook,
-  SiFramer,
-  SiAdobexd
 } from 'react-icons/si';
 
 const About = () => {

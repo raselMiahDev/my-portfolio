@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { 
   FaPhoneAlt, 
   FaEnvelope, 
@@ -6,18 +6,13 @@ import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
-  FaTwitter,
   FaWhatsapp,
-  FaTelegram,
-  FaSkype,
-  FaInstagram,
   FaClock,
   FaGlobe,
   FaPaperPlane,
   FaCheckCircle,
   FaTimesCircle
 } from 'react-icons/fa';
-import { SiUpwork, SiFiverr } from 'react-icons/si';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -44,14 +39,14 @@ const Contact = () => {
     {
       icon: <FaPhoneAlt size={24} />,
       title: 'Phone Number',
-      details: ['+880 1715-972211', '+880 1234-567890'],
+      details: ['+880 1715-972211', '+880 1613655422'],
       color: 'from-green-500 to-green-600',
       bgColor: 'bg-green-100 dark:bg-green-900/30'
     },
     {
       icon: <FaEnvelope size={24} />,
       title: 'Email Address',
-      details: ['raselmiahdev@gmail.com', 'contact@raselmiah.dev'],
+      details: ['raselmiahdev@gmail.com'],
       color: 'from-purple-500 to-purple-600',
       bgColor: 'bg-purple-100 dark:bg-purple-900/30'
     },
@@ -69,13 +64,7 @@ const Contact = () => {
     { icon: <FaGithub size={20} />, url: 'https://github.com/raselmiah', label: 'GitHub', color: 'hover:bg-gray-900' },
     { icon: <FaLinkedin size={20} />, url: 'https://linkedin.com/in/raselmiah', label: 'LinkedIn', color: 'hover:bg-blue-600' },
     { icon: <FaFacebook size={20} />, url: 'https://facebook.com/raselmiah', label: 'Facebook', color: 'hover:bg-blue-500' },
-    { icon: <FaTwitter size={20} />, url: 'https://twitter.com/raselmiah', label: 'Twitter', color: 'hover:bg-blue-400' },
     { icon: <FaWhatsapp size={20} />, url: 'https://wa.me/8801715972211', label: 'WhatsApp', color: 'hover:bg-green-500' },
-    { icon: <FaTelegram size={20} />, url: 'https://t.me/raselmiah', label: 'Telegram', color: 'hover:bg-blue-400' },
-    { icon: <FaInstagram size={20} />, url: 'https://instagram.com/raselmiah', label: 'Instagram', color: 'hover:bg-pink-600' },
-    { icon: <FaSkype size={20} />, url: 'skype:live:raselmiah?chat', label: 'Skype', color: 'hover:bg-blue-500' },
-    { icon: <SiUpwork size={20} />, url: 'https://upwork.com/freelancers/raselmiah', label: 'Upwork', color: 'hover:bg-green-600' },
-    { icon: <SiFiverr size={20} />, url: 'https://fiverr.com/raselmiah', label: 'Fiverr', color: 'hover:bg-green-500' }
   ];
 
   const handleChange = (e) => {

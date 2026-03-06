@@ -3,11 +3,7 @@ import {
   FaGithub, 
   FaLinkedin, 
   FaFacebook, 
-  FaTwitter, 
   FaWhatsapp,
-  FaTelegram,
-  FaInstagram,
-  FaSkype,
   FaHeart,
   FaArrowUp,
   FaEnvelope,
@@ -15,14 +11,12 @@ import {
   FaMapMarkerAlt,
   FaReact,
   FaNodeJs,
-  FaDatabase
 } from 'react-icons/fa';
 import { 
   SiTypescript, 
   SiTailwindcss, 
   SiMongodb,
   SiExpress,
-  SiNextdotjs
 } from 'react-icons/si';
 
 const Footer = () => {
@@ -42,11 +36,7 @@ const Footer = () => {
     { icon: <FaGithub />, url: 'https://github.com/raselmiah', label: 'GitHub', color: 'hover:bg-gray-900' },
     { icon: <FaLinkedin />, url: 'https://linkedin.com/in/raselmiah', label: 'LinkedIn', color: 'hover:bg-blue-600' },
     { icon: <FaFacebook />, url: 'https://facebook.com/raselmiah', label: 'Facebook', color: 'hover:bg-blue-500' },
-    { icon: <FaTwitter />, url: 'https://twitter.com/raselmiah', label: 'Twitter', color: 'hover:bg-blue-400' },
     { icon: <FaWhatsapp />, url: 'https://wa.me/8801715972211', label: 'WhatsApp', color: 'hover:bg-green-500' },
-    { icon: <FaTelegram />, url: 'https://t.me/raselmiah', label: 'Telegram', color: 'hover:bg-blue-400' },
-    { icon: <FaInstagram />, url: 'https://instagram.com/raselmiah', label: 'Instagram', color: 'hover:bg-pink-600' },
-    { icon: <FaSkype />, url: 'skype:live:raselmiah?chat', label: 'Skype', color: 'hover:bg-blue-500' },
   ];
 
   // Tech stack for footer
