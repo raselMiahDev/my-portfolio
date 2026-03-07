@@ -3,10 +3,6 @@ import {
   FaPhoneAlt, 
   FaEnvelope, 
   FaMapMarkerAlt,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaWhatsapp,
   FaClock,
   FaGlobe,
   FaPaperPlane,
@@ -14,6 +10,7 @@ import {
   FaTimesCircle
 } from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
+import { socialLinks } from '../../../data/social.link.data';
 
 const Contact = () => {
   const formRef = useRef();
@@ -57,14 +54,6 @@ const Contact = () => {
       color: 'from-orange-500 to-orange-600',
       bgColor: 'bg-orange-100 dark:bg-orange-900/30'
     }
-  ];
-
-  // Social media links
-  const socialLinks = [
-    { icon: <FaGithub size={20} />, url: 'https://github.com/raselmiah', label: 'GitHub', color: 'hover:bg-gray-900' },
-    { icon: <FaLinkedin size={20} />, url: 'https://linkedin.com/in/raselmiah', label: 'LinkedIn', color: 'hover:bg-blue-600' },
-    { icon: <FaFacebook size={20} />, url: 'https://facebook.com/raselmiah', label: 'Facebook', color: 'hover:bg-blue-500' },
-    { icon: <FaWhatsapp size={20} />, url: 'https://wa.me/8801715972211', label: 'WhatsApp', color: 'hover:bg-green-500' },
   ];
 
   const handleChange = (e) => {

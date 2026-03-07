@@ -1,17 +1,9 @@
-import React from 'react';
-import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp, FaCode, FaLaptopCode,FaReact,FaNodeJs } from 'react-icons/fa';
+import { FaCode, FaLaptopCode,FaReact,FaNodeJs } from 'react-icons/fa';
 import ProgrammingSVG from '../../../utility/ProgrammingSVG';
 import Image from '../../../assets/image/rasel.jpg';
+import {socialLinks} from "../../../data/social.link.data"
 
 const Home = () => {
-  // Social media links (replace with your actual URLs)
-  const socialLinks = [
-    { icon: <FaGithub size={24} />, url: 'https://github.com/raselMiahDev', label: 'GitHub', color: 'hover:text-gray-900 dark:hover:text-white' },
-    { icon: <FaLinkedin size={24} />, url: 'https://www.linkedin.com/in/md-rasel-miah-2696062a1', label: 'LinkedIn', color: 'hover:text-blue-600' },
-    { icon: <FaFacebook size={24} />, url: 'https://www.facebook.com/Raselkibria11/', label: 'Facebook', color: 'hover:text-blue-500' },
-    { icon: <FaWhatsapp size={24} />, url: 'https://wa.me/+8801715972211', label: 'WhatsApp', color: 'hover:text-green-500' },
-  ];
-
   return (
     <section id="home" className="min-h-screen pt-20 lg:pt-28 bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

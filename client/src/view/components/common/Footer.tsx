@@ -1,9 +1,4 @@
-import React from 'react';
 import { 
-  FaGithub, 
-  FaLinkedin, 
-  FaFacebook, 
-  FaWhatsapp,
   FaHeart,
   FaArrowUp,
   FaEnvelope,
@@ -18,6 +13,7 @@ import {
   SiMongodb,
   SiExpress,
 } from 'react-icons/si';
+import {socialLinks} from "../../../data/social.link.data"
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,13 +27,6 @@ const Footer = () => {
     { name: 'Contact', href: '#contact' }
   ];
 
-  // Social media links
-  const socialLinks = [
-    { icon: <FaGithub />, url: 'https://github.com/raselmiah', label: 'GitHub', color: 'hover:bg-gray-900' },
-    { icon: <FaLinkedin />, url: 'https://linkedin.com/in/raselmiah', label: 'LinkedIn', color: 'hover:bg-blue-600' },
-    { icon: <FaFacebook />, url: 'https://facebook.com/raselmiah', label: 'Facebook', color: 'hover:bg-blue-500' },
-    { icon: <FaWhatsapp />, url: 'https://wa.me/8801715972211', label: 'WhatsApp', color: 'hover:bg-green-500' },
-  ];
 
   // Tech stack for footer
   const techStack = [
