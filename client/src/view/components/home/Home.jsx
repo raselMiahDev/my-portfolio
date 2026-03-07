@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp, FaCode, FaLaptopCode } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp, FaCode, FaLaptopCode,FaReact,FaNodeJs } from 'react-icons/fa';
 import ProgrammingSVG from '../../../utility/ProgrammingSVG';
 import Image from '../../../assets/image/rasel.jpg';
 
@@ -117,6 +117,12 @@ const Home = () => {
               </div>
               <div className="absolute -bottom-4 -left-4 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg animate-bounce-slow delay-100">
                 <FaLaptopCode className="text-purple-600 text-xl" />
+              </div>
+              <div className="absolute top-2 -left-10 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg animate-bounce-slow delay-100">
+                <FaReact className="text-purple-600 text-xl" />
+              </div>
+              <div className="absolute -left-4 -top-10 bg-white dark:bg-gray-800 p-3 rounded-full shadow-lg animate-bounce-slow delay-100">
+                <FaNodeJs className="text-purple-600 text-xl" />
               </div>
             </div>
           </div>
