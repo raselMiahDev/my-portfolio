@@ -44,11 +44,8 @@ export const skillCategories = [
         { name: 'JavaScript', icon: <FaJs />, level: 90, color: 'text-yellow-500' },
         { name: 'Redux', icon: <SiRedux />, level: 85, color: 'text-purple-600' },
         { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 95, color: 'text-cyan-500' },
-        { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: 'text-orange-600' },
-        { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: 'text-blue-600' },
         { name: 'Bootstrap', icon: <FaBootstrap />, level: 85, color: 'text-purple-700' },
         { name: 'Framer Motion', icon: <SiFramer />, level: 75, color: 'text-purple-500' },
-        { name: 'Vite', icon: <SiVite />, level: 85, color: 'text-purple-500' },
       ]
     },
     {
@@ -76,8 +73,6 @@ export const skillCategories = [
         { name: 'Vercel', icon: <SiVercel />, level: 85, color: 'text-black dark:text-white' },
         { name: 'Netlify', icon: <SiNetlify />, level: 85, color: 'text-blue-500' },
         { name: 'Heroku', icon: <SiHeroku />, level: 75, color: 'text-purple-600' },
-        { name: 'Jest', icon: <SiJest />, level: 70, color: 'text-red-600' },
-        { name: 'Webpack', icon: <SiWebpack />, level: 75, color: 'text-blue-600' },
         { name: 'NPM/Yarn', icon: <SiNpm />, level: 85, color: 'text-red-600' },
       ]
     },
@@ -96,8 +91,6 @@ export const skillCategories = [
         { name: 'Creativity', icon: '🎨', level: 90, color: 'text-purple-600' },
         { name: 'Attention to Detail', icon: '🔍', level: 95, color: 'text-blue-600' },
         { name: 'Project Management', icon: '📊', level: 80, color: 'text-green-600' },
-        { name: 'Agile/Scrum', icon: '🔄', level: 85, color: 'text-red-500' },
-        { name: 'Mentoring', icon: '🤝', level: 75, color: 'text-teal-500' },
       ]
     }
   ];

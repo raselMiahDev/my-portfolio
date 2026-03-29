@@ -1,8 +1,6 @@
 import { 
   FaReact, 
   FaJs, 
-  FaHtml5, 
-  FaCss3Alt, 
   FaBootstrap, 
   FaGitAlt,
   FaFigma,
@@ -16,24 +14,20 @@ import {
   SiTypescript, 
   SiRedux, 
   SiNextdotjs,
-  SiVite,
 } from 'react-icons/si';
 
 
   // Frontend skills with proficiency levels
  export const frontendSkills = [
+   { name: 'Next.js', icon: <SiNextdotjs />, level: 80, color: 'text-black dark:text-white' },
     { name: 'React.js', icon: <FaReact />, level: 90, color: 'text-blue-500' },
-    { name: 'TypeScript', icon: <SiTypescript />, level: 85, color: 'text-blue-600' },
     { name: 'JavaScript', icon: <FaJs />, level: 90, color: 'text-yellow-500' },
-    { name: 'Next.js', icon: <SiNextdotjs />, level: 80, color: 'text-black dark:text-white' },
-    { name: 'Redux', icon: <SiRedux />, level: 85, color: 'text-purple-600' },
+    { name: 'TypeScript', icon: <SiTypescript />, level: 85, color: 'text-blue-600' },
     { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 95, color: 'text-cyan-500' },
-    { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: 'text-orange-600' },
-    { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: 'text-blue-600' },
     { name: 'Bootstrap', icon: <FaBootstrap />, level: 85, color: 'text-purple-700' },
+    { name: 'Redux', icon: <SiRedux />, level: 85, color: 'text-purple-600' },
     { name: 'Git', icon: <FaGitAlt />, level: 80, color: 'text-orange-600' },
-    { name: 'Figma', icon: <FaFigma />, level: 75, color: 'text-pink-600' },
-    { name: 'Vite', icon: <SiVite />, level: 85, color: 'text-purple-500' },
+    { name: 'Figma', icon: <FaFigma />, level: 75, color: 'text-pink-600' }
   ];
 
   // Frontend specializations
